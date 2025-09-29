@@ -6,6 +6,15 @@ A small, beginner-friendly Python script to detect simple hash types (MD5 / SHA1
 > (This README assumes `hashcrack.py` and `hashes.txt` are in the repo root.) :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
 
 ---
+📂 Project Structure
+```
+Hash-Analyzer/
+      │── hash_analyzer.py     # Main tool
+      │── requirements.txt     # Dependencies
+      │── wordlists/           # Sample wordlists
+      │── README.md            # Documentation
+```
+---
 
 ## Features
 - Automatically detects hash type by length: MD5 (32), SHA1 (40), SHA256 (64).
