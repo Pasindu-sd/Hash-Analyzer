@@ -9,10 +9,11 @@ A small, beginner-friendly Python script to detect simple hash types (MD5 / SHA1
 📂 Project Structure
 ```
 Hash-Analyzer/
-      │── hash_analyzer.py     # Main tool
-      │── requirements.txt     # Dependencies
-      │── wordlists/           # Sample wordlists
-      │── README.md            # Documentation
+      │── hashcrack.py
+      │── hashes.txt
+      │── wordlists.txt
+      │── cracked.txt 
+      │── README.md
 ```
 ---
 
