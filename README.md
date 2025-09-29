@@ -1,6 +1,7 @@
 # Hash-Analyzer
 
-A small, beginner-friendly Python script to detect simple hash types (MD5 / SHA1 / SHA256) and attempt to crack them using a provided wordlist.
+Hash-Analyzer is a lightweight Python tool designed to detect hash types and crack hashes using wordlists.
+It is mainly focused on educational and penetration testing purposes to understand how password hashes can be analyzed and cracked.
 
 > Uses the included `hashcrack.py` and an input file of hashes. See usage below.  
 > (This README assumes `hashcrack.py` and `hashes.txt` are in the repo root.) :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
